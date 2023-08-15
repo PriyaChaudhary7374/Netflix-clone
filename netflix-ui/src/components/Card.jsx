@@ -88,9 +88,7 @@ export default React.memo(function Card({ movieData, isLiked = false }) {
                   <AiOutlinePlus title="Add to my list" onClick={addToList} />
                 )}
               </div>
-              <div className="info">
-                <BiChevronDown title="More Info" />
-              </div>
+            
             </div>
             <div className="genres flex">
               <ul className="flex">

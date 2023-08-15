@@ -5,7 +5,7 @@ const userRoutes=require("./routes/UserRoutes");
 const app=express();
 app.use(cors());
 app.use(express.json());
-mongoose.connect("mongodb://localhost:27017/netflix",{
+mongoose.connect("mongodb+srv://pri8394chaudhary:priya8394@cluster0.6wunzf9.mongodb.net/",{
     useNewUrlParser:true,
 useUnifiedTopology:true,
 }).then(()=>
